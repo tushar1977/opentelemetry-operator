@@ -106,7 +106,7 @@ OPERATOR_SDK_VERSION ?= 1.29.0
 CERTMANAGER_VERSION ?= 1.10.0
 
 ifndef ignore-not-found
-  ignore-not-found = false
+  ignore-not-found = true
 endif
 
 ## Location to install dependencies to
